@@ -6,37 +6,260 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Travel</title>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:wght@700&family=Lato:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </head>
 <body>
 <div id="wrapper">
-    <header id="header">
-        <nav class="menu">
-            <ul>
-                <li class="menu-link"><a href="#">Home</a></li>
-                <li class="menu-link"><a href="#">Guides</a></li>
-                <li class="menu-link"><a href="#">Flights</a></li>
-                <li class="menu-link"><a href="#">About</a></li>
-            </ul>
-        </nav>
-        <span class="menu-btn">
-            <span class="material-icons">
-                view_headline
-            </span>
-        </span>
-        <button class="btn">Contact Us</button>
-    </header>
+   <header id="header">
+       <div class="container">
+           <nav class="menu">
+               <ul>
+                   <li class="menu-link"><a href="#">Home</a></li>
+                   <li class="menu-link"><a href="#">Guides</a></li>
+                   <li class="menu-link"><a href="#">Flights</a></li>
+                   <li class="menu-link"><a href="#">About</a></li>
+               </ul>
+           </nav>
+           <span class="menu-btn"><span class="material-icons">view_headline</span></span>
+           <a href="#" class="btn">Contact Us</a>
+       </div>
+   </header>
+    <div class="main">
+        <div class="travel">
+            <div class="travel-holder container">
+                <div class="travel-content">
+                    <h1>Travel to your dream destination</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida. </p>
+                    <a href="#" class="btn">Reserve Ticket</a>
+                </div>
+                <div class="travel-image">
+                    <img src="/img/img-travel.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="create">
+            <div class="create-content">
+                <h2>Create a memory to remember</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida. </p>
+                <a href="#" class="btn">My Travel Logs</a>
+            </div>
+        </div>
+        <div class="news">
+            <div class="news-holder container">
+                <div>
+                    <div class="news-holder-img">
+                        <a href="#"><img src="/img/img-01.jpg" alt="post"></a>
+                    </div>
+                    <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
+                </div>
+                <div>
+                    <div class="news-holder-img">
+                        <a href="#"><img src="/img/img-02.jpg" alt="post"></a>
+                    </div>
+                    <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
+                </div>
+                <div>
+                    <div class="news-holder-img">
+                        <a href="#"><img src="/img/img-03.jpg" alt="post"></a>
+                    </div>
+                    <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
+                </div>
+            </div>
+        </div>
+        <div class="places">
+            <div class="places-holder container">
+               <div class="places-holder-items">
+                   <div>
+                       <img src="/img/places/airplane.png" alt="airplane">
+                   </div>
+                   <h2>See places you’ve <span>never</span> been before</h2>
+                   <p>Lorem Ipsum Dolor | Lorem Ipsum Dolor | Lorem Ipsum Dolor</p>
+               </div>
+                <div class="places-holder-info">
+                    <div class="places-mr30">
+                        <img src="/img/places/img-places-01.jpg" alt="places">
+                    </div>
+                    <div>
+                        <div class="places-mb70">
+                            <img src="/img/places/img-places-02.jpg" alt="places">
+                        </div>
+                        <div class="places-holder-info-footer">
+                            <h3>
+                                <a href="#">Lorem ipsum
+                                    dolor sit amet
+                                    consectetur
+                                    adipiscing elit
+                                    sed do ei</a>
+                            </h3>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+                                <p>exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="choose">
+            <div class="choose-holder container">
+                <div class="choose-menu">
+                    <h2>Choose anywhere you’d like to be</h2>
+                    <h4>Lorem Ipsum dolor</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre henderit in voluptate velit esse.</p>
+                    <h4>Lorem Ipsum dolor</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in repre henderit in voluptate velit esse.</p>
+                </div>
+                <div class="choose-img">
+                    <img src="/img/img-04.jpg" alt="Choose">
+                </div>
+
+            </div>
+        </div>
+        <div class="accordion container">
+            <div class="accordion-content">
+                <h2>Lorem ipsum dolor sit amet consectetur</h2>
+                <ul>
+                    <li class="accordion-items">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei</span>
+                        <div class="accordion-holder">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei</p>
+                        </div>
+                    </li>
+                    <li class="accordion-items">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei</span>
+                    </li>
+                    <li class="accordion-items">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei</span>
+                    </li>
+                    <li class="accordion-items">
+                        <span>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="accordion-img">
+                <img src="/img/img-05.jpg" alt="accordion-img">
+            </div>
+        </div>
+        <div class="slider">
+            <div class="container">
+                <h2>Here’s what they have to say...</h2>
+                <div class="slider-main">
+                    <div>
+                        <div class="slider-block">
+                            <div class="avatar">
+                                <img src="/img/slide-img.png" alt="Img slider">
+                            </div>
+                            <h4>Customer Name</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod tempor incid idunt ut labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider-block">
+                            <div class="avatar">
+                                <img src="/img/slide-img.png" alt="Img slider">
+                            </div>
+                            <h4>Customer Name</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod tempor incid idunt ut labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider-block">
+                            <div class="avatar">
+                                <img src="/img/slide-img.png" alt="Img slider">
+                            </div>
+                            <h4>Customer Name</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod tempor incid idunt ut labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="slider-block">
+                            <div class="avatar">
+                                <img src="/img/slide-img.png" alt="Img slider">
+                            </div>
+                            <h4>Customer Name</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod tempor incid idunt ut labore et dolore magna aliqua.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reviews container">
+            <div class="reviews-form">
+                <h2>Be updated!</h2>
+                <form action="" method="get">
+                    <div class="input-control">
+                        <input type="text" placeholder="First Name*">
+                    </div>
+                    <div class="input-control">
+                        <input type="text" placeholder="Last Name*">
+                    </div>
+                    <div class="input-control">
+                        <input type="email" placeholder="Email Subject*">
+                    </div>
+                    <div>
+                        <textarea name="text" cols="61" rows="13" placeholder="Write something here..."></textarea>
+                    </div>
+                    <a href="#" class="btn">Submit Email</a>
+                </form>
+            </div>
+            <div class="reviews-img">
+                <img src="/img/reviews-img.jpg" alt="Reviews">
+            </div>
+        </div>
+    </div>
+    <footer id="footer">
+        <div class="footer-holder container">
+            <div class="footer-top">
+                <strong class="footer-logo">My Log Travels</strong>
+                <div class="footer-nav">
+                    <h4>Quick Links</h4>
+                    <div class="footer-link">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">My Travel Logs</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Travels</a></li>
+                            <li><a href="#">Promo Flights</a></li>
+                            <li><a href="#">Travel Routes</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Recommendations</a></li>
+                            <li><a href="#">Guides</a></li>
+                            <li><a href="#">Blogs</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Mission Statement</a></li>
+                            <li><a href="#">The Team</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <p>2021-2022 My Log Travels. All Rights Reserved.</p>
+        </div>
+
+
+    </footer>
 </div>
-<script>
-    jQuery(function(){
-        $(".menu-btn").click(function() {
-            // $(this).toggleClass("active");
-            $("#header").toggleClass('open-menu');
-        });
-    });
-</script>
+
 </body>
 </html>
